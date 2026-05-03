@@ -1,0 +1,19 @@
+# Build
+target/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# 🔐 ALL service config files
+**/src/main/resources/application.yml
+**/src/main/resources/application.properties
+**/src/main/resources/application-*.yml
+
+# Env files
+.env
