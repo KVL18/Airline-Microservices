@@ -9,5 +9,5 @@ public  interface UserService {
 
     UserDTO getUserByEmail(String email) throws Exception;
     UserDTO getUserById(Long id) throws Exception;
-    List<User>getAllUsers();
+    List<UserDTO>getAllUsers();
 }
